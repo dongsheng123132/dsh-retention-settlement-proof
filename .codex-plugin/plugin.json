@@ -1,0 +1,22 @@
+{
+  "name": "dsh-retention-settlement-proof",
+  "version": "0.1.0",
+  "description": "Body-free evidence that a DSH retention or deletion request settled and stayed absent after restart",
+  "author": {
+    "name": "dongsheng123132"
+  },
+  "homepage": "https://github.com/dongsheng123132/dsh-retention-settlement-proof",
+  "repository": "https://github.com/dongsheng123132/dsh-retention-settlement-proof",
+  "license": "MIT",
+  "keywords": ["deepseek-harness", "dsh", "retention", "deletion", "tombstone", "evidence"],
+  "interface": {
+    "displayName": "DSH Retention Settlement Proof",
+    "shortDescription": "Prove recorded deletion stayed absent across DSH surfaces.",
+    "longDescription": "Verifies a hashed deletion request, tombstone, required storage projections, post-restart epochs, freshness and non-resurrection without deleting or exposing session content.",
+    "developerName": "dongsheng123132",
+    "category": "Developer Tools",
+    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "defaultPrompt": "Verify this explicit retention settlement manifest without deleting anything or returning session content."
+  },
+  "mcpServers": "./.mcp.json"
+}
