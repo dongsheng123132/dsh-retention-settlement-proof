@@ -1,5 +1,7 @@
 # dsh-retention-settlement-proof
 
+**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+
 Offline, body-free evidence that a recorded DeepSeek Harness retention/deletion request settled across required storage projections and stayed absent after restart.
 
 This plugin **does not delete anything**. DSH session persistence currently has no general delete/retention API, while community archive/delete plugins implement different mutation strategies. This proof layer consumes explicit, pre-recorded receipts from those implementations or test harnesses. It is complementary to `dsh-recovery-proof` (restore drills), `dsh-decision-effect-proof` (authorization/effect reconciliation), and deletion UIs: it answers only whether one opaque subject remained absent across declared surfaces and restart epochs.
