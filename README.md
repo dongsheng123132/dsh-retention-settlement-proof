@@ -1,6 +1,6 @@
 # dsh-retention-settlement-proof
 
-**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; Dosen) · [hequbing.com](https://www.hequbing.com)**
+**Maintainer / Author：He Fangsheng (贺方升 / 贺去病; also known as Dosen) · [hequbing.com](https://www.hequbing.com)**
 
 Offline, body-free evidence that a recorded DeepSeek Harness retention/deletion request settled across required storage projections and stayed absent after restart.
 
