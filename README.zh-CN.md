@@ -1,6 +1,6 @@
 # dsh-retention-settlement-proof
 
-作者 / 维护者：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
 
 面向 DeepSeek Harness 的离线、无正文“删除结算证明”：验证一条已录制的删除/保留请求是否在必需存储投影中完成，并在重启后持续缺席。
 
